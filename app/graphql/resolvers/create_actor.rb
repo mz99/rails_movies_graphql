@@ -1,8 +1,6 @@
 class Resolvers::CreateActor < GraphQL::Function
-  # arguments passed as "args"
   argument :name, !types.String
   argument :image, !types.String
-
 
   type Types::ActorType
 
