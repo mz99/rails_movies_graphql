@@ -34,18 +34,4 @@ Types::QueryType = GraphQL::ObjectType.define do
     }
   end
 
-  # field :actor, !types[Types::ActorType] do
-  #   argument :id, !types.ID
-  #   resolve -> (obj, args, ctx) {
-  #     Actor.find(args[:id])
-  #   }
-  # end
-  #
-  # field :movie do
-  #   type MovieType
-  #   argument :id, !types.ID
-  #   resolve -> (obj, args, ctx) {
-  #     Movie.find(args[:id])
-  #   }
-  # end
 end

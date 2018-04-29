@@ -1,5 +1,6 @@
-class Resolvers::CreateUser < GraphQL::Function
+class Resolvers::CreateUserMovie < GraphQL::Function
   argument :username, !types.String
+
 
   type Types::UserType
 
